@@ -1,0 +1,20 @@
+{
+  "section": {
+    "title": "Intermediary Health Services",
+    "description": "Comprehensive support for international patients, connecting them with expert medical care and tailored treatment solutions."
+  },
+  "services": [
+    {
+      "title": "Urology Treatments",
+      "description": "As Tigris Group, we offer intermediary healthcare services, facilitating urology procedures for our patients with expert medical guidance and seamless coordination."
+    },
+    {
+      "title": "Ear Nose Throat treatments",
+      "description": "As Tigris Group, we serve as an intermediary healthcare provider, ensuring our guests receive the highest quality care for ENT treatments through our trusted medical network."
+    },
+    {
+      "title": "Dental Care",
+      "description": "As Tigris Group, we provide intermediary healthcare services, ensuring safe, comfortable, and high-quality oral and dental treatments for our guests."
+    }
+  ]
+}

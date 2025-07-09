@@ -1,0 +1,24 @@
+{
+    "footer": {
+        "description": "Tigris Health is a medical tourism company that provides services to patients worldwide.",
+        "categories": {
+            "useful": "Useful Links",
+            "resources": "Other Resources",
+            "source": "Source Code"
+        },
+        "useful": {
+            "about": "About us",
+            "doctors": "Our Doctors",
+            "services": "Our Services",
+            "contact": "Contact us",
+            "faq": "FAQ"
+        },
+        "resources": {
+            "license": "MIT License",
+            "terms": "Terms & Conditions",
+            "privacy": "Privacy Policy",
+            "connect": "Connect With Us"
+        },
+        "copyright": "Copyright © {{year}} Tigris Health by Tigris Group."
+    }
+}

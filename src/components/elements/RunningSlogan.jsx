@@ -1,5 +1,6 @@
 
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 
 const RunningText = ({
@@ -69,25 +70,33 @@ function Text({ children, stroke, font, style = {} }) {
 }
 
 export default function RunningSlogan() {
-    const font = '4vw';
-    return (
-        <div className='mb-20'>
-            <motion.div
-                style={{ width: '100%'}}
-                initial={{ opacity: 0, filter: 'blur(10px)' }}
-                whileInView={{ opacity: 1, filter: 'blur(0px)' }}
-                transition={{ duration: 1 }}
-                viewport={{ once: true }}
-            >
-                <RunningText>
-                    <Text stroke={1.5} font={font}><span className='primary-tx-blue-whiter'>Tigris Health</span></Text>
-                    <Text font={font}><span className='primary-tx-blue-whiter'>SelfCare</span></Text>
-                    <Text font={font}>Medical</Text>
-                    <Text stroke={1.5} font={font}><span className='text-blue-500'>Doctors</span></Text>
-                    <Text font={font}>Services</Text>
-                    <Text stroke={1.5} font={font}>Specialties</Text>
-                </RunningText>
-            </motion.div>
-        </div>
-    );
+  const { t } = useTranslation("slogan");
+  const font = "4vw";
+
+  return (
+    <div className="mb-20">
+      <motion.div
+        style={{ width: "100%" }}
+        initial={{ opacity: 0, filter: "blur(10px)" }}
+        whileInView={{ opacity: 1, filter: "blur(0px)" }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+      >
+        <RunningText>
+          <Text stroke={1.5} font={font}>
+            <span className="primary-tx-blue-whiter">{t("slogan.tigris")}</span>
+          </Text>
+          <Text font={font}>
+            <span className="primary-tx-blue-whiter">{t("slogan.selfcare")}</span>
+          </Text>
+          <Text font={font}>{t("slogan.medical")}</Text>
+          <Text stroke={1.5} font={font}>
+            <span className="text-blue-500">{t("slogan.doctors")}</span>
+          </Text>
+          <Text font={font}>{t("slogan.services")}</Text>
+          <Text stroke={1.5} font={font}>{t("slogan.specialties")}</Text>
+        </RunningText>
+      </motion.div>
+    </div>
+  );
 }

@@ -1,0 +1,22 @@
+{
+  "slider": {
+    "slide1": {
+      "title": "We provide high-quality medical services",
+      "description": "We offer a wide range of medical services, from consultations to advanced procedures. Our goal is to ensure you receive the best care in every situation.",
+      "button1Text": "Book an Appointment",
+      "button2Text": "Learn More"
+    },
+    "slide2": {
+      "title": "Personalized approach for every patient",
+      "description": "Our specialists provide tailored solutions for treatment and prevention. We are committed to your health, comfort, and long-term well-being.",
+      "button1Text": "Book an Appointment",
+      "button2Text": "About Us"
+    },
+    "slide3": {
+      "title": "Advanced diagnostics and treatment technologies",
+      "description": "Using state-of-the-art technologies, we provide precise diagnostics, effective treatments, and comprehensive rehabilitation to meet international standards.",
+      "button1Text": "Book an Appointment",
+      "button2Text": "Contact Us"
+    }
+  }
+}

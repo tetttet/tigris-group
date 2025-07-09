@@ -1,0 +1,48 @@
+{
+  "specialties": [
+    {
+      "category": "Neurological Disorders",
+      "title": "The First Step to Health"
+    },
+    {
+      "category": "Radiology",
+      "title": "Modern Imaging Diagnostics"
+    },
+    {
+      "category": "Chemotherapy",
+      "title": "Fighting Disease at the Cellular Level"
+    },
+    {
+      "category": "Gastroenterology",
+      "title": "Digestive System Health"
+    },
+    {
+      "category": "Pediatric Diseases",
+      "title": "Caring for Children’s Health"
+    },
+    {
+      "category": "Intensive Care",
+      "title": "Life in Critical Situations"
+    },
+    {
+      "category": "Rehabilitation",
+      "title": "Recovery After Illness"
+    },
+    {
+      "category": "Plastic Surgery",
+      "title": "Aesthetics and Restoration"
+    },
+    {
+      "category": "Oncology",
+      "title": "Comprehensive Cancer Treatment"
+    },
+    {
+      "category": "Neurosurgery",
+      "title": "Brain and Spine Operations"
+    },
+    {
+      "category": "Hematology",
+      "title": "Research and Treatment of Blood Diseases"
+    }
+  ]
+}

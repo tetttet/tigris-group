@@ -1,36 +1,31 @@
 import { FaUserMd, FaAccusoft } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 import video1 from "../../assets/tigris_intro_video2.mp4";
 
-const title = "TIGRIS HEALTH";
-const sectionTitle = "— Your Partner in Better Health";
-const sectionDescription = "At TIGRIS HEALTH, we are committed to delivering top-quality medical services tailored to your individual needs. Our mission is to guide you toward a healthier, happier life through expert care and innovative treatment.";
-
-const whoWeAreTitle = "Who We Are";
-const whoWeAreDescription1 = "TIGRIS HEALTH is a modern medical organization dedicated to holistic patient care. Our team of certified professionals combines compassion with cutting-edge technology to offer personalized solutions for every stage of life.";
-const whoWeAreDescription2 = "We believe in prevention, education, and continuous support — because your health is our priority.";
-
-const listItems1 = [
-    "Comprehensive diagnostics and screening programs.",
-    "Experienced medical staff across multiple specialties.",
-    "Individual treatment plans and wellness tracking."
-];
-
-const listItems2 = [
-    "Modern facilities with advanced medical equipment.",
-    "24/7 patient support and consultation services.",
-    "Commitment to excellence, empathy, and integrity."
-];
-
-
 const MedAbout = () => {
+    const { t } = useTranslation("about");
+
+    const listItems1 = [
+        t("list1.item1"),
+        t("list1.item2"),
+        t("list1.item3"),
+    ];
+
+    const listItems2 = [
+        t("list2.item1"),
+        t("list2.item2"),
+        t("list2.item3"),
+    ];
+
     return (
         <section className="py-20 bg-white">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-semibold text-gray-900 tracking-tight">
-                        <span className="text-blue-500 font-bold">{title}</span>
-                        {" "}{sectionTitle}</h2>
-                    <p className="text-lg text-gray-500 mt-4">{sectionDescription}</p>
+                        <span className="text-blue-500 font-bold">{t("title")}</span>{" "}
+                        {t("sectionTitle")}
+                    </h2>
+                    <p className="text-lg text-gray-500 mt-4">{t("sectionDescription")}</p>
                 </div>
 
                 <div className="flex flex-wrap items-center justify-center">
@@ -50,9 +45,15 @@ const MedAbout = () => {
 
                     <div className="lg:w-1/2 w-full px-4 sm:px-6">
                         <div className="p-6 sm:p-10 rounded-3xl">
-                            <h3 className="text-2xl font-semibold text-gray-900 mb-4">{whoWeAreTitle}</h3>
-                            <p className="text-gray-600 text-base mb-4">{whoWeAreDescription1}</p>
-                            <p className="text-gray-600 text-base mb-6">{whoWeAreDescription2}</p>
+                            <h3 className="text-2xl font-semibold text-gray-900 mb-4">
+                                {t("whoWeAre.title")}
+                            </h3>
+                            <p className="text-gray-600 text-base mb-4">
+                                {t("whoWeAre.description1")}
+                            </p>
+                            <p className="text-gray-600 text-base mb-6">
+                                {t("whoWeAre.description2")}
+                            </p>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                 <ul className="space-y-3">
                                     {listItems1.map((item, index) => (

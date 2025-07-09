@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 
 const Slide = ({ title, description, img, button1Text, button2Text, button1Link, button2Link }) => (
@@ -6,7 +7,7 @@ const Slide = ({ title, description, img, button1Text, button2Text, button1Link,
         <div className="py-24 h-full flex items-center justify-center lg:items-end relative z-10 px-4 sm:px-6">
             <div className="row flex items-center text-center">
                 <div className="col-lg-7">
-                   <div className="text text-white w-1/2 ml-auto">
+                    <div className="text text-white w-1/2 ml-auto">
                         <h1 className="pr-text-blue text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold leading-tight">
                             {title}
                         </h1>
@@ -39,38 +40,43 @@ const MedSlider = () => {
         autoplaySpeed: 3000,
     };
 
+
+    const { t } = useTranslation("home");
+
     const slidesData = [
         {
-            title: "Мы предоставляем качественные медицинские услуги",
-            description: "Мы предлагаем широкий спектр медицинских услуг, от консультаций до сложных процедур. Наша цель — обеспечить вам наилучший уход в любой ситуации.",
+            title: t("slider.slide1.title"),
+            description: t("slider.slide1.description"),
             img: "https://cdn.anatoliahospital.com/main-storage/563/yabanci-slider2.jpeg?class=slider",
-            button1Text: "Записаться на приём",
-            button2Text: "Узнать больше",
+            button1Text: t("slider.slide1.button1Text"),
+            button2Text: t("slider.slide1.button2Text"),
             button1Link: "#",
             button2Link: "#",
         },
         {
-            title: "Индивидуальный подход к каждому пациенту",
-            description: "Наши специалисты готовы предложить персонализированные решения для лечения и профилактики заболеваний. Мы заботимся о вашем здоровье и комфорте.",
+            title: t("slider.slide2.title"),
+            description: t("slider.slide2.description"),
             img: "https://plus.unsplash.com/premium_vector-1682311122960-12a21f777ec0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA3fHxkb2N0b3J8ZW58MHx8MHx8fDA%3D",
-            button1Text: "Записаться на приём",
-            button2Text: "О нас",
+            button1Text: t("slider.slide2.button1Text"),
+            button2Text: t("slider.slide2.button2Text"),
             button1Link: "#",
             button2Link: "#",
         },
         {
-            title: "Современные методы диагностики и лечения",
-            description: "Используя передовые технологии и методы лечения, мы предлагаем вам диагностику, лечение и реабилитацию на самом высоком уровне.",
+            title: t("slider.slide3.title"),
+            description: t("slider.slide3.description"),
             img: "https://plus.unsplash.com/premium_vector-1682270091935-677cd4ff2f4e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTUxfHxkb2N0b3J8ZW58MHx8MHx8fDA%3D",
-            button1Text: "Записаться на приём",
-            button2Text: "Контакты",
+            button1Text: t("slider.slide3.button1Text"),
+            button2Text: t("slider.slide3.button2Text"),
             button1Link: "#",
             button2Link: "#",
-        }
+        },
     ];
 
+
+
     return (
-        <section className="slider w-full overflow-hidden">
+        <section className="slider w-full overflow-hidden bg-gradient-to-b from-white to-[#eff3f7]">
             <Slider {...settings}>
                 {slidesData.map((slide, index) => (
                     <Slide

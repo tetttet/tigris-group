@@ -1,0 +1,46 @@
+{
+  "title": "Our Specialized Services",
+  "button": "More of Our Services",
+  "categories": [
+    {
+      "name": "Anesthesia & Reanimation",
+      "urlParamName": "anesthesia-reanimation",
+      "description": "Anesthesia and reanimation involve managing pain and supporting vital functions during surgeries, as well as treating critically ill patients."
+    },
+    {
+      "name": "Biochemistry & Clinical Biochemistry",
+      "urlParamName": "biochemistry",
+      "description": "This field explores chemical processes in the human body and applies them for disease diagnosis and treatment development."
+    },
+    {
+      "name": "Chest Diseases",
+      "urlParamName": "chest-diseases",
+      "description": "Covers conditions like pneumonia, bronchitis, and cardiovascular issues affecting the lungs and chest."
+    },
+    {
+      "name": "Gastroenterology",
+      "urlParamName": "gastroenterology",
+      "description": "Focuses on diseases of the digestive tract, including the stomach, intestines, liver, pancreas, and bile ducts."
+    },
+    {
+      "name": "Gynecology & Obstetrics",
+      "urlParamName": "gynecology",
+      "description": "Covers women's reproductive health, including disease diagnosis, treatment, and childbirth."
+    },
+    {
+      "name": "Eye Diseases",
+      "urlParamName": "eye-diseases",
+      "description": "Includes conditions such as cataracts, glaucoma, retinal diseases, and other vision-related disorders."
+    },
+    {
+      "name": "Dermatology",
+      "urlParamName": "dermatology",
+      "description": "Studies skin, hair, and nail disorders like acne, eczema, psoriasis, and skin infections."
+    },
+    {
+      "name": "Medical Research",
+      "urlParamName": "medical-research",
+      "description": "Encompasses scientific efforts to improve diagnostics, develop therapies, and enhance patient care."
+    }
+  ]
+}

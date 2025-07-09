@@ -17,6 +17,7 @@ import { MenuContainer } from "../../components/Sections/MenuContainer"
 import MedSlider from "../../components/Slider/MedSlider"
 import { CarouselDemo } from "../../components/Carousel"
 import MissionSection from "../../components/Mission"
+import Company from "../../components/Company"
 
 const fadeInUp = {
     hidden: { opacity: 0, y: 60 },
@@ -63,7 +64,16 @@ const Home2 = () => {
             >
                 <MedSlider />
             </motion.div>
-            
+
+            <motion.div
+                variants={scaleIn}
+                initial="hidden"
+                animate="visible"
+                transition={{ duration: 0.7, delay: 0.2 }}
+            >
+                <Company />
+            </motion.div>
+
             <CarouselDemo />
 
             <motion.div

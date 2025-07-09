@@ -1,0 +1,30 @@
+{
+  "missions": {
+    "0": {
+      "title": "Medical Aid",
+      "description": "We provide medical assistance and support to people affected by war, working in the most challenging conditions to deliver essential care."
+    },
+    "1": {
+      "title": "Emergency Response",
+      "description": "Our team responds quickly to emergencies, offering critical support in the first hours after a disaster."
+    },
+    "2": {
+      "title": "Long-Term Treatment",
+      "description": "We help patients access long-term treatments and rehabilitation in trusted international hospitals."
+    },
+    "3": {
+      "title": "Mental Health Support",
+      "description": "We support the psychological well-being of individuals affected by trauma through counseling and therapy."
+    },
+    "4": {
+      "title": "Access to Specialists",
+      "description": "We connect patients with highly qualified doctors and surgeons in the best clinics across Turkey."
+    },
+    "5": {
+      "title": "Humanitarian Logistics",
+      "description": "We organize safe transportation, accommodation, and translation support for patients and families in need."
+    },
+    "learnMore": "Learn More",
+    "support": "Support"
+  }
+}

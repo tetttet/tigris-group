@@ -7,7 +7,7 @@ import { X } from "lucide-react";
 
 import img from "../../assets/about/features.jpg"
 import img4 from "../../assets/hero/hero5.jpg";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 
 export const Feature = () => {
     const { t } = useTranslation("tigris.web.page");
@@ -44,48 +44,36 @@ export const Feature = () => {
 }
 
 export const FeaturesSection = () => {
-    const img_feature_1 = "https://plus.unsplash.com/premium_vector-1745409708587-7507675d0a1a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY3fHxkb2N0b3J8ZW58MHx8MHx8fDA%3D"
-    const img_feature_2 = "https://plus.unsplash.com/premium_vector-1745409708533-5d4bf86d87ef?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg5fHxkb2N0b3J8ZW58MHx8MHx8fDA%3D"
-    const img_feature_3 = "https://plus.unsplash.com/premium_vector-1682269614096-0d0ec6e4f848?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzEzfHxkb2N0b3J8ZW58MHx8MHx8fDA%3D"
+    const { t } = useTranslation("features");
+
+    const features = t("features", { returnObjects: true });
+
+    const images = [
+        "https://plus.unsplash.com/premium_vector-1745409708587-7507675d0a1a?w=900&auto=format&fit=crop&q=60",
+        "https://plus.unsplash.com/premium_vector-1745409708533-5d4bf86d87ef?w=900&auto=format&fit=crop&q=60",
+        "https://plus.unsplash.com/premium_vector-1682269614096-0d0ec6e4f848?w=900&auto=format&fit=crop&q=60"
+    ];
 
     return (
         <section className="features py-20 bg-gradient-to-b from-white to-[#f4f6fa]">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-semibold text-gray-800 mb-4 tracking-tight">
-                        We Are Always Ready to Help You & Your Family
+                        {t("section.title")}
                     </h2>
-                    <p className="text-lg text-gray-500">
-                        Compassionate care, innovative service, and trusted support — always within reach.
-                    </p>
+                    <p className="text-lg text-gray-500">{t("section.description")}</p>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-                    {/* Card Template */}
-                    {[{
-                        title: "Emergency Help",
-                        description: "Quick and reliable response whenever you need it most — 24/7 care and attention.",
-                        image: img_feature_1,
-                        alt: "Emergency Help"
-                    }, {
-                        title: "Enriched Pharmacy",
-                        description: "Trusted medicine and expert advice — all in one modern, clean experience.",
-                        image: img_feature_2,
-                        alt: "Enriched Pharmacy"
-                    }, {
-                        title: "Medical Treatment",
-                        description: "High-quality care delivered with precision, empathy, and the latest technology.",
-                        image: img_feature_3,
-                        alt: "Medical Treatment"
-                    }].map(({ title, description, image, alt }) => (
+                    {features.map(({ title, description }, index) => (
                         <div
                             key={title}
-                            className="bg-white/70 backdrop-blur-md border border-gray-200 p-8 rounded-2xl shadow-lg transition-all hover:shadow-xl"
+                            className="bg-white/70 backdrop-blur-md border border-gray-200 p-8 rounded-2xl shadow-sm transition-all hover:shadow-xl"
                         >
                             <div className="w-full h-48 mb-6 flex items-center justify-center overflow-hidden">
                                 <img
-                                    src={image}
-                                    alt={alt}
+                                    src={images[index]}
+                                    alt={title}
                                     className="h-full object-contain"
                                 />
                             </div>
@@ -97,8 +85,8 @@ export const FeaturesSection = () => {
             </div>
         </section>
     );
-
 };
+
 
 export const PortfolioSection = () => {
     const portfolioItems = [
@@ -155,17 +143,17 @@ export const PortfolioSection = () => {
     };
 
     return (
-        <div className="w-full py-20 px-6">
+        <div className="w-full py-20 px-6 bg-gradient-to-br from-[#f5f6fa] to-[#f8faff]">
             <div className="max-w-11/12 mx-auto">
-                <div className="rounded-3xl bg-white/50 backdrop-blur-md p-6">
+                <div className="rounded-xl backdrop-blur-md p-6">
                     <Slider {...settings}>
                         {portfolioItems.map(item => (
                             <div key={item.id} className="px-4">
-                                <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                                <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
                                     <img
                                         src={item.imgSrc}
                                         alt={`portfolio-item-${item.id}`}
-                                        className="w-full object-cover h-72 rounded-2xl"
+                                        className="w-full object-cover h-72 rounded-xl"
                                     />
                                 </div>
                             </div>
@@ -313,45 +301,48 @@ export const CastIronInfo = () => {
 }
 
 export const Clients = () => {
-    return (
-        <section className="my-20 mt-20 bg-gray-50">
-            <div className="container mx-auto px-4"> <div className="flex flex-wrap items-center mt-32">
-                <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                    <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                        Работать с {" "}
-                        <span className="primary-tx-blue-whiter font-bold">
-                            TIGRIS HEALTH</span> — это просто
-                    </h3>
-                    <p className="text-gray-600 text-lg font-light leading-relaxed mt-4 mb-4">
-                        В {" "}
-                        <span className="primary-tx-blue-whiter font-semibold">
-                            TIGRIS HEALTH</span> мы ставим здоровье пациентов на первое место. Наша команда врачей и специалистов использует современные технологии, чтобы обеспечить точную диагностику и эффективное лечение.
-                    </p>
-                    <p className="text-gray-600 text-lg font-light leading-relaxed mt-0 mb-8">
-                        Мы предлагаем комплексный подход к каждому пациенту, начиная с консультаций и заканчивая реабилитацией. Нам доверяют тысячи людей за профессионализм, заботу и индивидуальный подход.
-                        <br />
-                        <span className="primary-tx-blue-whiter font-semibold">
-                            TIGRIS HEALTH</span> — ваш надёжный партнёр в заботе о здоровье.
-                    </p>
-                    <Link to="/" className="font-bold border p-2 primary-br-blue-whiter mt-10 rounded-lg text-gray-600 hover:bg-gray-100">
-                        Ознакомьтесь с нашими услугами
-                    </Link>
-                </div>
+    const { t } = useTranslation("clients");
 
-                <div className="w-full md:w-4/12 px-4 mr-auto ml-auto pt-7">
-                    <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 ">
-                        <img
-                            alt="..."
-                            src={img}
-                            className="w-full align-middle rounded-3xl"
-                        />
+    return (
+        <section>
+            <div className="container mx-auto px-4">
+                <div className="flex flex-wrap items-center mt-32">
+                    <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
+                        <h3 className="text-3xl mb-2 font-semibold leading-normal">
+                            <Trans i18nKey={t("title")} components={{ 1: <span className="primary-tx-blue-whiter font-bold" /> }} />
+                        </h3>
+
+                        <p className="text-gray-600 text-lg font-light leading-relaxed mt-4 mb-4">
+                            <Trans i18nKey={t("paragraph1")} components={{ 1: <span className="primary-tx-blue-whiter font-semibold" /> }} />
+                        </p>
+
+                        <p className="text-gray-600 text-lg font-light leading-relaxed mt-0 mb-8 whitespace-pre-line">
+                            <Trans i18nKey={t("paragraph2")} components={{ 1: <span className="primary-tx-blue-whiter font-semibold" /> }} />
+                        </p>
+
+                        <Link
+                            to="/services"
+                            className="font-bold border p-2 primary-br-blue-whiter mt-10 rounded-lg text-gray-600 hover:bg-gray-100"
+                        >
+                            {t("button")}
+                        </Link>
+                    </div>
+
+                    <div className="w-full md:w-4/12 px-4 mr-auto ml-auto pt-7">
+                        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6">
+                            <img
+                                alt="Client testimonial"
+                                src={img}
+                                className="w-full align-middle rounded-3xl"
+                            />
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
     );
 };
+
 
 export const ContactSection = () => {
     const { t } = useTranslation("tigris.web.page");

@@ -22,6 +22,17 @@ i18n
       "tigris.web.page",
       "footer.json",
       "events.json",
+      "home.json",
+      "about.json",
+      "specialties.json",
+      "features.json",
+      "intermediary.json",
+      "menu.json",
+      "clients.json",
+      "translation.json",
+      "slogan.json",
+      "med-footer.json",
+      "chat.json",
     ], // Пространства имен, которые мы используем
     defaultNS: "main.page", // Пространство имен по умолчанию
     interpolation: {

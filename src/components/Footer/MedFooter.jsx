@@ -1,3 +1,5 @@
+"use client";
+import { useTranslation } from "react-i18next";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { FaSquareInstagram, FaSquareWhatsapp } from "react-icons/fa6";
@@ -14,6 +16,8 @@ import {
 } from "../../data";
 
 export const MedFooter = () => {
+  const { t } = useTranslation("med-footer");
+
   const socialLinks = [
     { icon: <FaPhoneAlt />, color: "text-gray-400" },
     { icon: <FaSquareWhatsapp />, color: "text-green-400" },
@@ -22,25 +26,25 @@ export const MedFooter = () => {
   ];
 
   const usefulLinks = [
-    { name: "About us", url: `${HTTP_ROUTE_MED_ABOUT}` },
-    { name: "Our Doctors", url: `${HTTP_ROUTE_MED_DOCTORS}` },
-    { name: "Our Services", url: `${HTTP_ROUTE_MED_SERVICES}` },
-    { name: "Contact us", url: `${HTTP_ROUTE_TIGRIS_CONTACT}` },
-    { name: "FAQ", url: `${HTTP_ROUTE_MED_FAQ}` },
+    { name: t("footer.useful.about"), url: HTTP_ROUTE_MED_ABOUT },
+    { name: t("footer.useful.doctors"), url: HTTP_ROUTE_MED_DOCTORS },
+    { name: t("footer.useful.services"), url: HTTP_ROUTE_MED_SERVICES },
+    { name: t("footer.useful.contact"), url: HTTP_ROUTE_TIGRIS_CONTACT },
+    { name: t("footer.useful.faq"), url: HTTP_ROUTE_MED_FAQ },
   ];
 
   const otherResources = [
-    { name: "MIT License", url: "#" },
-    { name: "Terms & Conditions", url: "#" },
-    { name: "Privacy Policy", url: "#" },
-    { name: "Connect With Us", url: `${HTTP_ROUTE_TIGRIS_CONTACT}` },
+    { name: t("footer.resources.license"), url: "#" },
+    { name: t("footer.resources.terms"), url: "#" },
+    { name: t("footer.resources.privacy"), url: "#" },
+    { name: t("footer.resources.connect"), url: HTTP_ROUTE_TIGRIS_CONTACT },
   ];
 
   const sourceLinks = [
-    { name: "Tigris Health", url: `${HTTP_ROUTE.website2.path}` },
-    { name: "Tigris Group", url: `/` },
-    { name: "Tigris Tourism", url: `${HTTP_ROUTE_TIGRIS_TARGET}` },
-    { name: "Tigris Medical", url: `${HTTP_ROUTE_MED_ABOUT}` },
+    { name: "Tigris Health", url: HTTP_ROUTE.website2.path },
+    { name: "Tigris Group", url: "/" },
+    { name: "Tigris Tourism", url: HTTP_ROUTE_TIGRIS_TARGET },
+    { name: "Tigris Medical", url: HTTP_ROUTE_MED_ABOUT },
   ];
 
   return (
@@ -52,13 +56,13 @@ export const MedFooter = () => {
       </div>
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap text-center sm:text-left">
-          {/* Блок с названием и соц. сетями */}
+          {/* Название и соц. сети */}
           <div className="w-full sm:w-6/12 px-4">
             <h4 className="text-2xl sm:text-3xl font-semibold">
               <span className="primary-tx-blue-whiter">Tigris</span> Health
             </h4>
             <h5 className="text-sm sm:text-md mt-1 sm:mt-0 mb-3 sm:mb-2 text-blueGray-600">
-              Tigris Health is a medical tourism company that provides services to patients worldwide.
+              {t("footer.description")}
             </h5>
             <div className="mt-4 sm:mt-6 flex justify-center sm:justify-start space-x-2">
               {socialLinks.map((link, index) => (
@@ -72,13 +76,17 @@ export const MedFooter = () => {
             </div>
           </div>
 
-          {/* Блок с ссылками */}
+          {/* Ссылки */}
           <div className="w-full sm:w-1/2 px-4 mt-6 sm:mt-0 flex justify-center sm:justify-end">
             <div className="flex flex-wrap items-top mb-4 sm:mb-6 w-full sm:w-auto">
               {[usefulLinks, otherResources, sourceLinks].map((links, index) => (
                 <div key={index} className="w-1/2 sm:w-4/12 px-4 mb-4 sm:mb-0 text-center sm:text-left">
                   <span className="block uppercase text-blueGray-500 text-xs sm:text-sm font-semibold mb-2">
-                    {index === 0 ? "Useful Links" : index === 1 ? "Other Resources" : "Source Code"}
+                    {index === 0
+                      ? t("footer.categories.useful")
+                      : index === 1
+                        ? t("footer.categories.resources")
+                        : t("footer.categories.source")}
                   </span>
                   <ul>
                     {links.map((link, idx) => (
@@ -99,11 +107,7 @@ export const MedFooter = () => {
         </div>
         <hr className="my-4 sm:my-6 border-blueGray-300" />
         <div className="text-center text-xs sm:text-sm text-gray-800 font-semibold py-1">
-          Copyright © {new Date().getFullYear()} Tigris Health by{" "}
-          <a href="#" className="hover:text-blueGray-800">
-            Tigris Group
-          </a>
-          .
+          {t("footer.copyright")}
         </div>
       </div>
     </footer>
