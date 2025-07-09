@@ -1,0 +1,34 @@
+{
+    "hero": {
+        "1": {
+            "title": "Tigris Group: A Leader in National and International Events",
+            "category": "AVRUPA BIRLIGI BAKANLICI",
+            "time": "2014 year"
+        },
+        "2": {
+            "title": "Tigris Group has been a prominent partner in organizing some of the most successful national and international events.",
+            "category": "GENCLIK VE SPOR BAKANLIGI",
+            "time": ""
+        },
+        "3": {
+            "title": "Our mission at Tigris Group is to lead the way in event management and tourism services by delivering innovative, high-quality, and personalized solutions that exceed our clients' expectations.",
+            "category": "SAGLIK BAKANLIGI",
+            "time": ""
+        },
+        "4": {
+            "title": "We are committed to fostering strong partnerships with businesses and organizations, ensuring their success through professional and seamless execution of events and travel experiences.",
+            "category": "GENÇLIK VE SPOR BAKANLIGI",
+            "time": ""
+        }
+    },
+    "by": "by",
+    "participants": "NUMBER OF PARTICIPANTS",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "newEvents": "By year: new → old",
+    "oldEvents": "By year: old → new",
+    "searchByName": "Search by name...",
+    "location": "Location",
+    "year": "Year",
+    "attendees": "Attendees"
+}

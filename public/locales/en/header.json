@@ -1,0 +1,40 @@
+{
+    "topbar": {
+        "about": "About",
+        "doctors": "Doctors",
+        "contact": "Contact",
+        "services": "Services",
+        "fAQ": "FAQ"
+    },
+    "navabar": {
+        "tigristourism": "Tigris Group",
+        "meetexpert": "Tigris History",
+        "targettourism": "Tigris Projects",
+        "tigrismedical": "Tigris Medical",
+        "tigrisservices": "Tigris Services",
+        "contact": "Contact",
+        "about": "About Tigris"
+    },
+    "navbar-mobile": {
+        "tigristourism": "Tigris",
+        "meetexpert": "History",
+        "targettourism": "Projects",
+        "tigrismedical": "Medical",
+        "tigrisservices": "Services",
+        "contact": "Contact",
+        "about": "About"
+    },
+    "med-navbar": {
+        "home": "Home",
+        "about": "About",
+        "doctors": "Doctors",
+        "services": "Services",
+        "contact": "Contact",
+        "faq": "FAQ"
+    },
+    "banner": {
+        "text": "Tigris Group for health website platform!",
+        "check": "Check out all the",
+        "policy": "new features"
+    }
+}
