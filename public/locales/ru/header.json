@@ -1,0 +1,40 @@
+{
+  "topbar": {
+    "about": "О нас",
+    "doctors": "Врачи",
+    "contact": "Контакты",
+    "services": "Услуги",
+    "fAQ": "Вопросы и ответы"
+  },
+  "navabar": {
+    "tigristourism": "Tigris Group",
+    "meetexpert": "История Tigris",
+    "targettourism": "Проекты Tigris",
+    "tigrismedical": "Tigris Медицинский",
+    "tigrisservices": "Услуги Tigris",
+    "contact": "Контакты",
+    "about": "О Tigris"
+  },
+  "navbar-mobile": {
+    "tigristourism": "Tigris",
+    "meetexpert": "История",
+    "targettourism": "Проекты",
+    "tigrismedical": "Медицина",
+    "tigrisservices": "Услуги",
+    "contact": "Контакты",
+    "about": "О нас"
+  },
+  "med-navbar": {
+    "home": "Главная",
+    "about": "О нас",
+    "doctors": "Врачи",
+    "services": "Услуги",
+    "contact": "Контакты",
+    "faq": "Вопросы и ответы"
+  },
+  "banner": {
+    "text": "Платформа Tigris Group для сферы здравоохранения!",
+    "check": "Узнайте обо всех",
+    "policy": "новых возможностях"
+  }
+}

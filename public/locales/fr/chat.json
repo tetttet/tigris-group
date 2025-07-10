@@ -1,0 +1,14 @@
+{
+  "chatbot": {
+    "title": "ChatBot",
+    "welcome": "Bonjour, souhaitez-vous des informations sur ce site ?",
+    "inputPlaceholder": "Message...",
+    "thinking": "Réflexion en cours...",
+    "error": "Désolé, une erreur s’est produite.",
+    "suggestions": [
+      "Quelle est votre adresse ?",
+      "Comment puis-je vous contacter ?",
+      "Quels services proposez-vous ?"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "slider": {
+    "slide1": {
+      "title": "Nous fournissons des services médicaux de haute qualité",
+      "description": "Nous offrons une large gamme de services médicaux, des consultations aux procédures avancées. Notre objectif est de vous garantir les meilleurs soins en toute circonstance.",
+      "button1Text": "Prendre un rendez-vous",
+      "button2Text": "En savoir plus"
+    },
+    "slide2": {
+      "title": "Approche personnalisée pour chaque patient",
+      "description": "Nos spécialistes proposent des solutions sur mesure pour le traitement et la prévention. Nous nous engageons pour votre santé, votre confort et votre bien-être à long terme.",
+      "button1Text": "Prendre un rendez-vous",
+      "button2Text": "À propos de nous"
+    },
+    "slide3": {
+      "title": "Technologies avancées de diagnostic et de traitement",
+      "description": "Grâce à des technologies de pointe, nous offrons des diagnostics précis, des traitements efficaces et une réhabilitation complète conforme aux normes internationales.",
+      "button1Text": "Prendre un rendez-vous",
+      "button2Text": "Contactez-nous"
+    }
+  }
+}

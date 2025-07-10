@@ -1,0 +1,40 @@
+{
+  "topbar": {
+    "about": "Hakkında",
+    "doctors": "Doktorlar",
+    "contact": "İletişim",
+    "services": "Hizmetler",
+    "fAQ": "SSS"
+  },
+  "navabar": {
+    "tigristourism": "Tigris Group",
+    "meetexpert": "Tigris Tarihi",
+    "targettourism": "Tigris Projeleri",
+    "tigrismedical": "Tigris Medikal",
+    "tigrisservices": "Tigris Hizmetleri",
+    "contact": "İletişim",
+    "about": "Tigris Hakkında"
+  },
+  "navbar-mobile": {
+    "tigristourism": "Tigris",
+    "meetexpert": "Tarih",
+    "targettourism": "Projeler",
+    "tigrismedical": "Medikal",
+    "tigrisservices": "Hizmetler",
+    "contact": "İletişim",
+    "about": "Hakkında"
+  },
+  "med-navbar": {
+    "home": "Anasayfa",
+    "about": "Hakkında",
+    "doctors": "Doktorlar",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "faq": "SSS"
+  },
+  "banner": {
+    "text": "Tigris Group sağlık web sitesi platformu!",
+    "check": "Tüm yeni",
+    "policy": "özellikleri inceleyin"
+  }
+}

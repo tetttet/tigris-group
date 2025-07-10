@@ -1,0 +1,22 @@
+{
+  "footer": {
+    "description": "Tigris Group, Türkiye'de önde gelen bir şirkettir ve müşterilerimize en üst düzey hizmetleri sunmaktadır. Otel rezervasyonları, VIP transferler ve tercüman desteği konusunda uzmanız. Ekibimiz, size en iyi deneyimi yaşatmak için özveriyle çalışmaktadır.",
+    "links": {
+      "title": "Hızlı Bağlantılar",
+      "subtitle": "Destek",
+      "about": "Hakkımızda",
+      "services": "Sunulan Hizmetler",
+      "contact": "İletişim",
+      "faq": "SSS & Yardım",
+      "company": "Tigris Group Hakkında",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Hizmet Şartları",
+      "partners": "Ortaklar"
+    },
+    "form": {
+      "title": "Bize Mesaj Gönderin",
+      "placeholder": "E-posta Adresiniz",
+      "sub": "Bültenimize abone olun"
+    }
+  }
+}

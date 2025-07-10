@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "1": {
+      "title": "Tigris Group: Ulusal ve Uluslararası Etkinliklerde Lider",
+      "category": "AVRUPA BİRLİĞİ BAKANLIĞI",
+      "time": "2014 yılı"
+    },
+    "2": {
+      "title": "Tigris Group, en başarılı ulusal ve uluslararası etkinliklerin düzenlenmesinde önemli bir ortak olmuştur.",
+      "category": "GENÇLİK VE SPOR BAKANLIĞI",
+      "time": ""
+    },
+    "3": {
+      "title": "Tigris Group olarak misyonumuz, yenilikçi, yüksek kaliteli ve kişiselleştirilmiş çözümler sunarak etkinlik yönetimi ve turizm hizmetlerinde öncü olmaktır ve müşterilerimizin beklentilerini aşmaktır.",
+      "category": "SAĞLIK BAKANLIĞI",
+      "time": ""
+    },
+    "4": {
+      "title": "İşletmeler ve organizasyonlarla güçlü ortaklıklar kurmaya, etkinliklerin ve seyahat deneyimlerinin profesyonel ve sorunsuz yürütülmesiyle başarılarını sağlamaya kararlıyız.",
+      "category": "GENÇLİK VE SPOR BAKANLIĞI",
+      "time": ""
+    }
+  },
+  "by": "tarafından",
+  "participants": "KATILIMCI SAYISI",
+  "showMore": "Daha Fazla Göster",
+  "showLess": "Daha Az Göster",
+  "newEvents": "Yıla göre: yeni → eski",
+  "oldEvents": "Yıla göre: eski → yeni",
+  "searchByName": "İsme göre ara...",
+  "location": "Konum",
+  "year": "Yıl",
+  "attendees": "Katılımcılar"
+}

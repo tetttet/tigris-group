@@ -1,0 +1,14 @@
+{
+  "chatbot": {
+    "title": "ChatBot",
+    "welcome": "Merhaba, bu site hakkında bilgi alabilir miyim?",
+    "inputPlaceholder": "Mesaj...",
+    "thinking": "Düşünüyor...",
+    "error": "Üzgünüz, bir hata oluştu.",
+    "suggestions": [
+      "Adresiniz nedir?",
+      "Benimle nasıl iletişime geçebilirsiniz?",
+      "Hangi hizmetleri sunuyorsunuz?"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "section": {
+    "title": "Services de santé intermédiaires",
+    "description": "Un accompagnement complet pour les patients internationaux, en les connectant à des soins médicaux experts et à des solutions de traitement personnalisées."
+  },
+  "services": [
+    {
+      "title": "Traitements en urologie",
+      "description": "En tant que Tigris Group, nous proposons des services de santé intermédiaires, facilitant les procédures urologiques grâce à un accompagnement médical expert et une coordination fluide."
+    },
+    {
+      "title": "Traitements ORL",
+      "description": "En tant que Tigris Group, nous agissons comme prestataire de santé intermédiaire, garantissant à nos patients les meilleurs soins ORL via notre réseau médical de confiance."
+    },
+    {
+      "title": "Soins dentaires",
+      "description": "En tant que Tigris Group, nous offrons des services de santé intermédiaires, assurant des traitements dentaires sûrs, confortables et de haute qualité à nos patients."
+    }
+  ]
+}

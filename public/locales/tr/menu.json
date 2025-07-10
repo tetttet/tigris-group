@@ -1,0 +1,46 @@
+{
+  "title": "Uzman Hizmetlerimiz",
+  "button": "Diğer Hizmetlerimiz",
+  "categories": [
+    {
+      "name": "Anestezi ve Reanimasyon",
+      "urlParamName": "anesthesia-reanimation",
+      "description": "Anestezi ve reanimasyon, ameliyatlar sırasında ağrı yönetimi ve hayati fonksiyonların desteklenmesini, ayrıca kritik hastaların tedavisini kapsar."
+    },
+    {
+      "name": "Biyokimya ve Klinik Biyokimya",
+      "urlParamName": "biochemistry",
+      "description": "Bu alan, insan vücudundaki kimyasal süreçleri inceler ve hastalık teşhisi ile tedavi geliştirme için uygular."
+    },
+    {
+      "name": "Göğüs Hastalıkları",
+      "urlParamName": "chest-diseases",
+      "description": "Pnömoni, bronşit ve akciğerler ile göğsü etkileyen kardiyovasküler sorunlar gibi durumları kapsar."
+    },
+    {
+      "name": "Gastroenteroloji",
+      "urlParamName": "gastroenterology",
+      "description": "Mide, bağırsaklar, karaciğer, pankreas ve safra yolları dahil olmak üzere sindirim sistemi hastalıklarına odaklanır."
+    },
+    {
+      "name": "Jinekoloji ve Obstetrik",
+      "urlParamName": "gynecology",
+      "description": "Kadınların üreme sağlığı, hastalık teşhisi, tedavisi ve doğum süreçlerini kapsar."
+    },
+    {
+      "name": "Göz Hastalıkları",
+      "urlParamName": "eye-diseases",
+      "description": "Katarakt, glokom, retina hastalıkları ve diğer görme ile ilgili bozuklukları içerir."
+    },
+    {
+      "name": "Dermatoloji",
+      "urlParamName": "dermatology",
+      "description": "Akne, egzama, sedef hastalığı ve cilt enfeksiyonları gibi cilt, saç ve tırnak hastalıklarını inceler."
+    },
+    {
+      "name": "Tıbbi Araştırma",
+      "urlParamName": "medical-research",
+      "description": "Teşhisleri iyileştirmek, tedaviler geliştirmek ve hasta bakımını artırmak için yapılan bilimsel çalışmaları kapsar."
+    }
+  ]
+}

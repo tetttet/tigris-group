@@ -1,0 +1,40 @@
+{
+  "topbar": {
+    "about": "À propos",
+    "doctors": "Médecins",
+    "contact": "Contact",
+    "services": "Services",
+    "fAQ": "FAQ"
+  },
+  "navabar": {
+    "tigristourism": "Tigris Group",
+    "meetexpert": "Histoire de Tigris",
+    "targettourism": "Projets Tigris",
+    "tigrismedical": "Tigris Médical",
+    "tigrisservices": "Services Tigris",
+    "contact": "Contact",
+    "about": "À propos de Tigris"
+  },
+  "navbar-mobile": {
+    "tigristourism": "Tigris",
+    "meetexpert": "Histoire",
+    "targettourism": "Projets",
+    "tigrismedical": "Médical",
+    "tigrisservices": "Services",
+    "contact": "Contact",
+    "about": "À propos"
+  },
+  "med-navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "doctors": "Médecins",
+    "services": "Services",
+    "contact": "Contact",
+    "faq": "FAQ"
+  },
+  "banner": {
+    "text": "Tigris Group pour la plateforme santé en ligne !",
+    "check": "Découvrez toutes les",
+    "policy": "nouvelles fonctionnalités"
+  }
+}

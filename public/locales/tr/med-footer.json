@@ -1,0 +1,24 @@
+{
+  "footer": {
+    "description": "Tigris Health, dünya çapındaki hastalara hizmet veren bir medikal turizm şirketidir.",
+    "categories": {
+      "useful": "Faydalı Bağlantılar",
+      "resources": "Diğer Kaynaklar",
+      "source": "Kaynak Kodu"
+    },
+    "useful": {
+      "about": "Hakkımızda",
+      "doctors": "Doktorlarımız",
+      "services": "Hizmetlerimiz",
+      "contact": "İletişim",
+      "faq": "SSS"
+    },
+    "resources": {
+      "license": "MIT Lisansı",
+      "terms": "Şartlar & Koşullar",
+      "privacy": "Gizlilik Politikası",
+      "connect": "Bizimle Bağlanın"
+    },
+    "copyright": "Telif Hakkı © {{year}} Tigris Health, Tigris Group tarafından."
+  }
+}

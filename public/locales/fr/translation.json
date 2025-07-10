@@ -1,0 +1,30 @@
+{
+  "missions": {
+    "0": {
+      "title": "Aide Médicale",
+      "description": "Nous fournissons une assistance médicale et un soutien aux personnes touchées par la guerre, en travaillant dans les conditions les plus difficiles pour offrir des soins essentiels."
+    },
+    "1": {
+      "title": "Réponse d'Urgence",
+      "description": "Notre équipe intervient rapidement en cas d'urgence, offrant un soutien crucial dans les premières heures après une catastrophe."
+    },
+    "2": {
+      "title": "Traitement à Long Terme",
+      "description": "Nous aidons les patients à accéder à des traitements de longue durée et à la rééducation dans des hôpitaux internationaux de confiance."
+    },
+    "3": {
+      "title": "Soutien Psychologique",
+      "description": "Nous soutenons le bien-être psychologique des personnes touchées par un traumatisme à travers des services de conseil et de thérapie."
+    },
+    "4": {
+      "title": "Accès aux Spécialistes",
+      "description": "Nous mettons les patients en relation avec des médecins et chirurgiens hautement qualifiés dans les meilleures cliniques de Turquie."
+    },
+    "5": {
+      "title": "Logistique Humanitaire",
+      "description": "Nous organisons un transport sécurisé, un hébergement et un soutien en traduction pour les patients et leurs familles dans le besoin."
+    },
+    "learnMore": "En savoir plus",
+    "support": "Soutenir"
+  }
+}

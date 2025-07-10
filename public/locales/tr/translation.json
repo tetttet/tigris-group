@@ -1,0 +1,30 @@
+{
+  "missions": {
+    "0": {
+      "title": "Tıbbi Yardım",
+      "description": "Savaş mağduru insanlara tıbbi yardım ve destek sağlıyoruz, en zorlu koşullarda temel bakım sunmak için çalışıyoruz."
+    },
+    "1": {
+      "title": "Acil Müdahale",
+      "description": "Ekibimiz acil durumlara hızlı yanıt verir, felaketin ilk saatlerinde kritik destek sağlar."
+    },
+    "2": {
+      "title": "Uzun Süreli Tedavi",
+      "description": "Hastaların güvenilir uluslararası hastanelerde uzun süreli tedavi ve rehabilitasyona erişimine yardımcı oluyoruz."
+    },
+    "3": {
+      "title": "Ruh Sağlığı Desteği",
+      "description": "Travma yaşayan bireylerin psikolojik iyiliğini danışmanlık ve terapi yoluyla destekliyoruz."
+    },
+    "4": {
+      "title": "Uzmanlara Erişim",
+      "description": "Hastaları Türkiye'nin en iyi kliniklerinde yüksek nitelikli doktorlar ve cerrahlarla buluşturuyoruz."
+    },
+    "5": {
+      "title": "İnsani Lojistik",
+      "description": "İhtiyaç duyan hastalar ve aileleri için güvenli ulaşım, konaklama ve tercüman desteği organize ediyoruz."
+    },
+    "learnMore": "Daha Fazla Öğren",
+    "support": "Destek"
+  }
+}

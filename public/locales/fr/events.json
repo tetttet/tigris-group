@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "1": {
+      "title": "Tigris Group : Un leader dans les événements nationaux et internationaux",
+      "category": "MINISTÈRE DE L’UNION EUROPÉENNE",
+      "time": "Année 2014"
+    },
+    "2": {
+      "title": "Tigris Group a été un partenaire de premier plan dans l'organisation de certains des événements nationaux et internationaux les plus réussis.",
+      "category": "MINISTÈRE DE LA JEUNESSE ET DES SPORTS",
+      "time": ""
+    },
+    "3": {
+      "title": "Notre mission chez Tigris Group est d’être un leader dans la gestion d'événements et les services touristiques, en fournissant des solutions innovantes, de haute qualité et personnalisées qui dépassent les attentes de nos clients.",
+      "category": "MINISTÈRE DE LA SANTÉ",
+      "time": ""
+    },
+    "4": {
+      "title": "Nous nous engageons à établir des partenariats solides avec les entreprises et les organisations, en assurant leur succès grâce à l'exécution professionnelle et fluide d'événements et d’expériences de voyage.",
+      "category": "MINISTÈRE DE LA JEUNESSE ET DES SPORTS",
+      "time": ""
+    }
+  },
+  "by": "par",
+  "participants": "NOMBRE DE PARTICIPANTS",
+  "showMore": "Voir plus",
+  "showLess": "Voir moins",
+  "newEvents": "Par année : récent → ancien",
+  "oldEvents": "Par année : ancien → récent",
+  "searchByName": "Recherche par nom...",
+  "location": "Lieu",
+  "year": "Année",
+  "attendees": "Participants"
+}

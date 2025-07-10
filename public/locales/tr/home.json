@@ -1,0 +1,22 @@
+{
+  "slider": {
+    "slide1": {
+      "title": "Yüksek kaliteli tıbbi hizmetler sunuyoruz",
+      "description": "Danışmanlıklardan ileri prosedürlere kadar geniş bir yelpazede tıbbi hizmetler sunuyoruz. Amacımız her durumda en iyi bakımı almanızı sağlamaktır.",
+      "button1Text": "Randevu Al",
+      "button2Text": "Daha Fazla Bilgi"
+    },
+    "slide2": {
+      "title": "Her hasta için kişiselleştirilmiş yaklaşım",
+      "description": "Uzmanlarımız tedavi ve önleme için özel çözümler sunar. Sağlığınıza, konforunuza ve uzun vadeli iyiliğinize bağlıyız.",
+      "button1Text": "Randevu Al",
+      "button2Text": "Hakkımızda"
+    },
+    "slide3": {
+      "title": "Gelişmiş tanı ve tedavi teknolojileri",
+      "description": "En son teknolojileri kullanarak kesin tanı, etkili tedavi ve uluslararası standartlara uygun kapsamlı rehabilitasyon sağlıyoruz.",
+      "button1Text": "Randevu Al",
+      "button2Text": "İletişim"
+    }
+  }
+}

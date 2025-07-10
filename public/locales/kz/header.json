@@ -1,0 +1,40 @@
+{
+  "topbar": {
+    "about": "Біз Туралы",
+    "doctors": "Дәрігерлер",
+    "contact": "Байланыс",
+    "services": "Қызметтер",
+    "fAQ": "Жиі Сұрақтар"
+  },
+  "navabar": {
+    "tigristourism": "Tigris Group",
+    "meetexpert": "Tigris Тарихы",
+    "targettourism": "Tigris Жобалары",
+    "tigrismedical": "Tigris Медицина",
+    "tigrisservices": "Tigris Қызметтері",
+    "contact": "Байланыс",
+    "about": "Tigris туралы"
+  },
+  "navbar-mobile": {
+    "tigristourism": "Tigris",
+    "meetexpert": "Тарих",
+    "targettourism": "Жобалар",
+    "tigrismedical": "Медицина",
+    "tigrisservices": "Қызметтер",
+    "contact": "Байланыс",
+    "about": "Біз Туралы"
+  },
+  "med-navbar": {
+    "home": "Басты бет",
+    "about": "Біз Туралы",
+    "doctors": "Дәрігерлер",
+    "services": "Қызметтер",
+    "contact": "Байланыс",
+    "faq": "Жиі Сұрақтар"
+  },
+  "banner": {
+    "text": "Tigris Group — денсаулыққа арналған веб-платформа!",
+    "check": "Барлық",
+    "policy": "жаңа мүмкіндіктермен танысыңыз"
+  }
+}

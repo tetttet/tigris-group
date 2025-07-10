@@ -1,0 +1,24 @@
+{
+    "footer": {
+        "description": "Tigris Health — бүкіл әлем бойынша пациенттерге қызмет көрсететін медициналық туризм компаниясы.",
+        "categories": {
+            "useful": "Пайдалы Сілтемелер",
+            "resources": "Басқа Ресурстар",
+            "source": "Бастапқы Код"
+        },
+        "useful": {
+            "about": "Біз Туралы",
+            "doctors": "Біздің Дәрігерлер",
+            "services": "Біздің Қызметтер",
+            "contact": "Байланыс",
+            "faq": "Жиі Сұрақтар"
+        },
+        "resources": {
+            "license": "MIT Лицензиясы",
+            "terms": "Шарттар мен Ережелер",
+            "privacy": "Құпиялық Саясаты",
+            "connect": "Бізбен Байланысыңыз"
+        },
+        "copyright": "Copyright © {{year}} Tigris Health, Tigris Group компаниясынан."
+    }
+}

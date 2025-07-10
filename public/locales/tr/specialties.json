@@ -1,0 +1,48 @@
+{
+  "specialties": [
+    {
+      "category": "Nörolojik Bozukluklar",
+      "title": "Sağlığa İlk Adım"
+    },
+    {
+      "category": "Radyoloji",
+      "title": "Modern Görüntüleme Tanıları"
+    },
+    {
+      "category": "Kemoterapi",
+      "title": "Hastalığı Hücresel Düzeyde Mücadele"
+    },
+    {
+      "category": "Gastroenteroloji",
+      "title": "Sindirim Sistemi Sağlığı"
+    },
+    {
+      "category": "Çocuk Hastalıkları",
+      "title": "Çocuk Sağlığına Özen"
+    },
+    {
+      "category": "Yoğun Bakım",
+      "title": "Kritik Durumlarda Yaşam"
+    },
+    {
+      "category": "Rehabilitasyon",
+      "title": "Hastalık Sonrası İyileşme"
+    },
+    {
+      "category": "Plastik Cerrahi",
+      "title": "Estetik ve Onarım"
+    },
+    {
+      "category": "Onkoloji",
+      "title": "Kapsamlı Kanser Tedavisi"
+    },
+    {
+      "category": "Nöroşirürji",
+      "title": "Beyin ve Omurga Operasyonları"
+    },
+    {
+      "category": "Hematoloji",
+      "title": "Kan Hastalıklarının Araştırılması ve Tedavisi"
+    }
+  ]
+}

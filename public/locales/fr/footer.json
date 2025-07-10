@@ -1,0 +1,22 @@
+{
+  "footer": {
+    "description": "Tigris Group est une entreprise de premier plan en Turquie, offrant des services de haute qualité à nos clients. Nous sommes spécialisés dans les réservations d'hôtel, les transferts VIP et l'assistance de traducteurs. Notre équipe est dédiée à vous garantir la meilleure expérience possible.",
+    "links": {
+      "title": "Liens rapides",
+      "subtitle": "Assistance",
+      "about": "À propos de nous",
+      "services": "Services proposés",
+      "contact": "Contactez-nous",
+      "faq": "FAQs et Aide",
+      "company": "À propos de Tigris Group",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "partners": "Partenaires"
+    },
+    "form": {
+      "title": "Envoyez-nous un message",
+      "placeholder": "Votre e-mail",
+      "sub": "Abonnez-vous à notre newsletter"
+    }
+  }
+}

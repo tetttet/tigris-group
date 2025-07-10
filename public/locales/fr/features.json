@@ -1,0 +1,20 @@
+{
+  "section": {
+    "title": "Nous sommes toujours prêts à vous aider, vous et votre famille",
+    "description": "Des soins attentionnés, un service innovant et un soutien de confiance — toujours à portée de main."
+  },
+  "features": [
+    {
+      "title": "Aide d'urgence",
+      "description": "Réponse rapide et fiable quand vous en avez le plus besoin — soins et attention 24h/24 et 7j/7."
+    },
+    {
+      "title": "Pharmacie enrichie",
+      "description": "Médicaments de confiance et conseils d’experts — le tout dans un environnement moderne et propre."
+    },
+    {
+      "title": "Traitement médical",
+      "description": "Des soins de haute qualité prodigués avec précision, empathie et technologies de pointe."
+    }
+  ]
+}

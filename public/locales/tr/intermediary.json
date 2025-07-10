@@ -1,0 +1,20 @@
+{
+  "section": {
+    "title": "Aracı Sağlık Hizmetleri",
+    "description": "Uluslararası hastalar için kapsamlı destek, onları uzman tıbbi bakım ve kişiye özel tedavi çözümleriyle buluşturuyoruz."
+  },
+  "services": [
+    {
+      "title": "Üroloji Tedavileri",
+      "description": "Tigris Group olarak, hastalarımıza uzman tıbbi rehberlik ve sorunsuz koordinasyon ile üroloji işlemlerinde aracı sağlık hizmetleri sunuyoruz."
+    },
+    {
+      "title": "Kulak Burun Boğaz Tedavileri",
+      "description": "Tigris Group olarak, misafirlerimizin KBB tedavileri için güvenilir tıbbi ağımız aracılığıyla en yüksek kalitede bakım almalarını sağlayan aracı sağlık hizmetleri sunuyoruz."
+    },
+    {
+      "title": "Diş Bakımı",
+      "description": "Tigris Group olarak, misafirlerimiz için güvenli, konforlu ve yüksek kaliteli ağız ve diş tedavileri sağlayan aracı sağlık hizmetleri sunuyoruz."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Nos Services Spécialisés",
+  "button": "Voir plus de nos services",
+  "categories": [
+    {
+      "name": "Anesthésie et Réanimation",
+      "urlParamName": "anesthesia-reanimation",
+      "description": "L'anesthésie et la réanimation consistent à gérer la douleur et à soutenir les fonctions vitales pendant les interventions chirurgicales, ainsi qu’à traiter les patients en état critique."
+    },
+    {
+      "name": "Biochimie & Biochimie Clinique",
+      "urlParamName": "biochemistry",
+      "description": "Ce domaine explore les processus chimiques dans le corps humain et les applique au diagnostic des maladies et au développement de traitements."
+    },
+    {
+      "name": "Maladies Thoraciques",
+      "urlParamName": "chest-diseases",
+      "description": "Concerne des affections comme la pneumonie, la bronchite et les problèmes cardiovasculaires touchant les poumons et la cage thoracique."
+    },
+    {
+      "name": "Gastroentérologie",
+      "urlParamName": "gastroenterology",
+      "description": "Se concentre sur les maladies du système digestif, notamment de l’estomac, des intestins, du foie, du pancréas et des voies biliaires."
+    },
+    {
+      "name": "Gynécologie & Obstétrique",
+      "urlParamName": "gynecology",
+      "description": "Concerne la santé reproductive des femmes, y compris le diagnostic des maladies, les traitements et l'accouchement."
+    },
+    {
+      "name": "Maladies des Yeux",
+      "urlParamName": "eye-diseases",
+      "description": "Inclut des affections telles que les cataractes, le glaucome, les maladies de la rétine et d'autres troubles de la vision."
+    },
+    {
+      "name": "Dermatologie",
+      "urlParamName": "dermatology",
+      "description": "Étudie les troubles de la peau, des cheveux et des ongles comme l’acné, l’eczéma, le psoriasis et les infections cutanées."
+    },
+    {
+      "name": "Recherche Médicale",
+      "urlParamName": "medical-research",
+      "description": "Regroupe les efforts scientifiques visant à améliorer le diagnostic, développer des thérapies et optimiser les soins aux patients."
+    }
+  ]
+}

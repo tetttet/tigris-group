@@ -1,0 +1,48 @@
+{
+  "specialties": [
+    {
+      "category": "Troubles Neurologiques",
+      "title": "La première étape vers la santé"
+    },
+    {
+      "category": "Radiologie",
+      "title": "Diagnostics d’imagerie modernes"
+    },
+    {
+      "category": "Chimiothérapie",
+      "title": "Combattre la maladie au niveau cellulaire"
+    },
+    {
+      "category": "Gastroentérologie",
+      "title": "Santé du système digestif"
+    },
+    {
+      "category": "Maladies Pédiatriques",
+      "title": "Prendre soin de la santé des enfants"
+    },
+    {
+      "category": "Soins Intensifs",
+      "title": "La vie dans les situations critiques"
+    },
+    {
+      "category": "Rééducation",
+      "title": "Rétablissement après une maladie"
+    },
+    {
+      "category": "Chirurgie Plastique",
+      "title": "Esthétique et reconstruction"
+    },
+    {
+      "category": "Oncologie",
+      "title": "Traitement global du cancer"
+    },
+    {
+      "category": "Neurochirurgie",
+      "title": "Opérations du cerveau et de la colonne vertébrale"
+    },
+    {
+      "category": "Hématologie",
+      "title": "Recherche et traitement des maladies du sang"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "section": {
+    "title": "Sizin ve Ailenizin Yardımına Her Zaman Hazırız",
+    "description": "Şefkatli bakım, yenilikçi hizmet ve güvenilir destek — her zaman ulaşılabilir."
+  },
+  "features": [
+    {
+      "title": "Acil Yardım",
+      "description": "En çok ihtiyacınız olduğunda hızlı ve güvenilir müdahale — 7/24 bakım ve ilgi."
+    },
+    {
+      "title": "Gelişmiş Eczane",
+      "description": "Güvenilir ilaçlar ve uzman tavsiyesi — hepsi modern ve temiz bir deneyimde."
+    },
+    {
+      "title": "Tıbbi Tedavi",
+      "description": "Hassasiyet, empati ve son teknoloji ile sunulan yüksek kaliteli bakım."
+    }
+  ]
+}
